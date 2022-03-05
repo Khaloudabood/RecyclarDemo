@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/material_dynamic_primary20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Title" />
+
+    <TextView
+        android:id="@+id/authorTxt"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:textColor="@color/design_default_color_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Author" />
+
+    <TextView
+        android:id="@+id/yearTxt"
+        android:textStyle="italic"
+        android:textSize="10sp"
+        android:textColor="@color/design_default_color_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Year" />
+</LinearLayout>
